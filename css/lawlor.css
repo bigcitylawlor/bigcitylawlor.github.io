@@ -1,3 +1,15 @@
+header h1 {
+  font-family: 'Short Stack', 'cursive';
+  color: white;
+}
+
 header {
-  background:url(../img/back-field-pano.jpg) no-repeat 0 0;
+    background: #49531f;
+  }
+
+@media only screen and (min-width: 40.063em) {
+  header {
+    background:url(../img/back-field-pano.jpg) no-repeat -165px -5px #49531f;
+    height: 10em;
+  }
 }
